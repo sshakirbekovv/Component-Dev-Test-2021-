@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Component-Dev-Test-2021-/static/css/main.27490c5e.chunk.css",
+    "main.js": "/Component-Dev-Test-2021-/static/js/main.7939ad4c.chunk.js",
+    "main.js.map": "/Component-Dev-Test-2021-/static/js/main.7939ad4c.chunk.js.map",
+    "runtime-main.js": "/Component-Dev-Test-2021-/static/js/runtime-main.0979dfe0.js",
+    "runtime-main.js.map": "/Component-Dev-Test-2021-/static/js/runtime-main.0979dfe0.js.map",
+    "static/js/2.bbee4c40.chunk.js": "/Component-Dev-Test-2021-/static/js/2.bbee4c40.chunk.js",
+    "static/js/2.bbee4c40.chunk.js.map": "/Component-Dev-Test-2021-/static/js/2.bbee4c40.chunk.js.map",
+    "static/js/3.a272aa48.chunk.js": "/Component-Dev-Test-2021-/static/js/3.a272aa48.chunk.js",
+    "static/js/3.a272aa48.chunk.js.map": "/Component-Dev-Test-2021-/static/js/3.a272aa48.chunk.js.map",
+    "index.html": "/Component-Dev-Test-2021-/index.html",
+    "static/css/main.27490c5e.chunk.css.map": "/Component-Dev-Test-2021-/static/css/main.27490c5e.chunk.css.map",
+    "static/js/2.bbee4c40.chunk.js.LICENSE.txt": "/Component-Dev-Test-2021-/static/js/2.bbee4c40.chunk.js.LICENSE.txt",
+    "static/media/abc_logo.5557f412.svg": "/Component-Dev-Test-2021-/static/media/abc_logo.5557f412.svg",
+    "static/media/MainContentItems.scss": "/Component-Dev-Test-2021-/static/media/slide_two.b7b871cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0979dfe0.js",
+    "static/js/2.bbee4c40.chunk.js",
+    "static/css/main.27490c5e.chunk.css",
+    "static/js/main.7939ad4c.chunk.js"
+  ]
+}
