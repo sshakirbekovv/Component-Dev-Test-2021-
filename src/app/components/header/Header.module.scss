@@ -1,0 +1,58 @@
+.Header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: transparent;
+    width: 100%;
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .Header__body {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.2rem 4rem;
+
+        .Header__menu {
+
+            ul {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              flex-direction: column;
+        
+              li {
+                   cursor:pointer;
+                   color: #ffffff;
+                   font-weight: 600;
+                   padding-top: .8rem;
+        
+                   a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    transition: all 0.3s;
+                   }
+
+                   .active {
+                    font-weight: 600;
+                    color: #ffc004;
+                    }
+                }
+            } 
+        }
+
+        .Header__contact {
+            margin: 1.5rem 0;
+
+            a {
+                border: solid 1px #FFFFFF;
+                color: #ffffff;
+                padding: .8rem 1.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}

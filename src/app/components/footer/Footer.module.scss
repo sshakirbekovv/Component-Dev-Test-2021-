@@ -1,0 +1,55 @@
+.Footer {
+    background: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 3.5rem 2rem;
+    opacity: 0;
+    animation: flip .5s ease-out .5s forwards;
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .Footer__body {
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        a {
+            font-size: .9rem;
+            color: #000;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+            .Footer__icon {
+                color: #ffc004;
+                margin-left: .7rem;
+            }
+        }
+    }
+}
+
+@keyframes flip {
+    from {
+      opacity: 0;
+      transform: perspective(1000px) rotateX(-50deg);
+      transform-origin: bottom;
+    }
+  
+    to {
+      transform: perspective(1000px) rotateX(0deg);
+      opacity: 1;
+      transform-origin: bottom;
+    }
+}

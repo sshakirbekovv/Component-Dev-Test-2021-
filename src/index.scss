@@ -1,0 +1,29 @@
+:root {
+  color: #FFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('./assets/images/slide_one.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}

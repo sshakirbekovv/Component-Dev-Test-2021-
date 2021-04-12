@@ -1,0 +1,29 @@
+.App {
+    min-height: 100vh;
+}
+
+// Animations to give the elements of pages while render
+
+@keyframes toLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20%);
+    }
+  
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
+
+@keyframes toRight {
+    from {
+      opacity: 0;
+      transform: translateX(20%);
+    }
+  
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
